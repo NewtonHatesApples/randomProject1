@@ -178,4 +178,4 @@ def download_crypto_data(symbol: str, start: date, end: date, save_dir: str = "d
 
 
 if __name__ == "__main__":
-    download_crypto_data(symbol="ETHUSDT", start=date(2025, 1, 1), end=date(2026, 6, 30), interval="5m", suppress_info=False, tmp_dir="tmp_data2")
+    download_crypto_data(symbol="ETHUSDT", start=date(2020, 1, 1), end=date(2024, 12, 31), interval="5m", suppress_info=False, tmp_dir="tmp_data2")
